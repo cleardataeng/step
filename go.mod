@@ -1,4 +1,4 @@
-module github.com/coinbase/step
+module github.com/cleardata/step
 
 go 1.14
 
