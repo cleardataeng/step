@@ -1,4 +1,4 @@
-module github.com/cleardata/step
+module github.com/cleardataeng/step
 
 go 1.14
 
