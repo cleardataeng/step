@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/coinbase/step/jsonpath"
-	"github.com/coinbase/step/utils/is"
-	"github.com/coinbase/step/utils/to"
+	"github.com/cleardataeng/step/jsonpath"
+	"github.com/cleardataeng/step/utils/is"
+	"github.com/cleardataeng/step/utils/to"
 )
 
 // TYPES

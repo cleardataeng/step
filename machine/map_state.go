@@ -3,8 +3,8 @@ package machine
 import (
 	"context"
 	"fmt"
-	"github.com/coinbase/step/jsonpath"
-	"github.com/coinbase/step/utils/to"
+	"github.com/cleardataeng/step/jsonpath"
+	"github.com/cleardataeng/step/utils/to"
 )
 
 type MapState struct {

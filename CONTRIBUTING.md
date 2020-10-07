@@ -6,7 +6,7 @@ All interactions with this project follow our [Code of Conduct][code-of-conduct]
 By participating, you are expected to honor this code. Violators can be banned
 from further participation in this project, or potentially all Coinbase projects.
 
-[code-of-conduct]: https://github.com/coinbase/code-of-conduct
+[code-of-conduct]: https://github.com/cleardataeng/code-of-conduct
 
 ## Bug Reports
 
@@ -48,6 +48,6 @@ be locked to prevent further discussion.
 
 All support requests must be made via [our support team][3].
 
-[1]: https://github.com/coinbase/step/issues
+[1]: https://github.com/cleardataeng/step/issues
 [2]: https://medium.com/brigade-engineering/the-secrets-to-great-commit-messages-106fc0a92a25
 [3]: https://support.coinbase.com/customer/en/portal/articles/2288496-how-can-i-contact-coinbase-support-

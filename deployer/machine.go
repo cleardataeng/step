@@ -1,9 +1,9 @@
 package deployer
 
 import (
-	"github.com/coinbase/step/aws"
-	"github.com/coinbase/step/handler"
-	"github.com/coinbase/step/machine"
+	"github.com/cleardataeng/step/aws"
+	"github.com/cleardataeng/step/handler"
+	"github.com/cleardataeng/step/machine"
 )
 
 // StateMachine returns the StateMachine for the deployer

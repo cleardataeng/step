@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"io/ioutil"
 
-	"github.com/coinbase/step/utils/to"
+	"github.com/cleardataeng/step/utils/to"
 )
 
 // Takes a file, and a map of Task Function s

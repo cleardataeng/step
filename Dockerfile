@@ -3,7 +3,7 @@ FROM golang@sha256:ebe7f5d1a2a6b884bc1a45b8c1ff7e26b7b95938a3e8847ea96fc6761fdc2
 # Install Zip
 RUN apt-get update && apt-get upgrade -y && apt-get install -y zip
 
-WORKDIR /go/src/github.com/coinbase/step
+WORKDIR /go/src/github.com/cleardataeng/step
 
 ENV GO111MODULE on
 ENV GOPATH /go

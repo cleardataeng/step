@@ -5,12 +5,12 @@ import (
 
 	"github.com/aws/aws-sdk-go/service/lambda"
 	"github.com/aws/aws-sdk-go/service/sfn"
-	"github.com/coinbase/step/aws"
-	"github.com/coinbase/step/aws/s3"
-	"github.com/coinbase/step/bifrost"
-	"github.com/coinbase/step/machine"
-	"github.com/coinbase/step/utils/is"
-	"github.com/coinbase/step/utils/to"
+	"github.com/cleardataeng/step/aws"
+	"github.com/cleardataeng/step/aws/s3"
+	"github.com/cleardataeng/step/bifrost"
+	"github.com/cleardataeng/step/machine"
+	"github.com/cleardataeng/step/utils/is"
+	"github.com/cleardataeng/step/utils/to"
 )
 
 // Release is the Data Structure passed between Client and Deployer

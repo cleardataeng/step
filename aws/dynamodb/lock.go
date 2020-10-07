@@ -9,7 +9,7 @@ import (
 	"github.com/aws/aws-sdk-go/service/dynamodb"
 	"github.com/aws/aws-sdk-go/service/dynamodb/expression"
 
-	stepaws "github.com/coinbase/step/aws"
+	stepaws "github.com/cleardataeng/step/aws"
 )
 
 var (

@@ -3,7 +3,7 @@ jobs:
   build:
     docker:
       - image: circleci/golang:1.14
-    working_directory: /go/src/github.com/coinbase/step
+    working_directory: /go/src/github.com/cleardataeng/step
     steps:
       - checkout
       - run: export GO111MODULE=on && go mod download
