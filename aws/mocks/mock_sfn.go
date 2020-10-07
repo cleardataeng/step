@@ -3,7 +3,7 @@ package mocks
 import (
 	"github.com/aws/aws-sdk-go/service/sfn"
 	"github.com/aws/aws-sdk-go/service/sfn/sfniface"
-	"github.com/coinbase/step/utils/to"
+	"github.com/cleardataeng/step/utils/to"
 )
 
 type MockSFNClient struct {

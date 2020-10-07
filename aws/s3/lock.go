@@ -3,7 +3,7 @@ package s3
 import (
 	"fmt"
 
-	"github.com/coinbase/step/aws"
+	"github.com/cleardataeng/step/aws"
 )
 
 type Lock struct {

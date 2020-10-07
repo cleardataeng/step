@@ -6,17 +6,17 @@ import (
 	"os"
 	"time"
 
-	"github.com/coinbase/step/machine"
+	"github.com/cleardataeng/step/machine"
 
-	"github.com/coinbase/step/bifrost"
-	"github.com/coinbase/step/client"
-	"github.com/coinbase/step/deployer"
-	"github.com/coinbase/step/utils/run"
-	"github.com/coinbase/step/utils/to"
+	"github.com/cleardataeng/step/bifrost"
+	"github.com/cleardataeng/step/client"
+	"github.com/cleardataeng/step/deployer"
+	"github.com/cleardataeng/step/utils/run"
+	"github.com/cleardataeng/step/utils/to"
 )
 
 func main() {
-	default_name := "coinbase-step-deployer"
+	default_name := "step-deployer"
 	region, account_id := to.RegionAccount()
 	def_step_arn := to.Strp("")
 	if region != nil && account_id != nil {

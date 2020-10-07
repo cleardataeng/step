@@ -1,6 +1,6 @@
 package mocks
 
-import "github.com/coinbase/step/aws"
+import "github.com/cleardataeng/step/aws"
 
 type MockClients struct {
 	S3       *MockS3Client

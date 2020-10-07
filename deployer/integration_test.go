@@ -7,7 +7,7 @@ import (
 
 	"github.com/aws/aws-sdk-go/service/lambda"
 	"github.com/aws/aws-sdk-go/service/sfn"
-	"github.com/coinbase/step/utils/to"
+	"github.com/cleardataeng/step/utils/to"
 	"github.com/stretchr/testify/assert"
 )
 

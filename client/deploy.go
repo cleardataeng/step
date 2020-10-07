@@ -4,11 +4,11 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/coinbase/step/aws"
-	"github.com/coinbase/step/bifrost"
-	"github.com/coinbase/step/deployer"
-	"github.com/coinbase/step/execution"
-	"github.com/coinbase/step/utils/to"
+	"github.com/cleardataeng/step/aws"
+	"github.com/cleardataeng/step/bifrost"
+	"github.com/cleardataeng/step/deployer"
+	"github.com/cleardataeng/step/execution"
+	"github.com/cleardataeng/step/utils/to"
 )
 
 // Deploy takes release information and Calls the Step Deployer to deploy the release

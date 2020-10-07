@@ -11,8 +11,8 @@ import (
 
 	"github.com/aws/aws-sdk-go/aws/awserr"
 	"github.com/aws/aws-sdk-go/service/s3"
-	"github.com/coinbase/step/aws"
-	"github.com/coinbase/step/utils/to"
+	"github.com/cleardataeng/step/aws"
+	"github.com/cleardataeng/step/utils/to"
 )
 
 /////////

@@ -4,11 +4,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/coinbase/step/aws/mocks"
-	"github.com/coinbase/step/bifrost"
-	"github.com/coinbase/step/deployer"
-	"github.com/coinbase/step/machine"
-	"github.com/coinbase/step/utils/to"
+	"github.com/cleardataeng/step/aws/mocks"
+	"github.com/cleardataeng/step/bifrost"
+	"github.com/cleardataeng/step/deployer"
+	"github.com/cleardataeng/step/machine"
+	"github.com/cleardataeng/step/utils/to"
 	"github.com/stretchr/testify/assert"
 )
 

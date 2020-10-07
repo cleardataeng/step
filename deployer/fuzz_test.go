@@ -3,9 +3,9 @@ package deployer
 import (
 	"testing"
 
-	"github.com/coinbase/step/aws/mocks"
-	"github.com/coinbase/step/machine"
-	"github.com/coinbase/step/utils/to"
+	"github.com/cleardataeng/step/aws/mocks"
+	"github.com/cleardataeng/step/machine"
+	"github.com/cleardataeng/step/utils/to"
 	fuzz "github.com/google/gofuzz"
 	"github.com/stretchr/testify/assert"
 )

@@ -10,10 +10,10 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/coinbase/step/aws"
-	"github.com/coinbase/step/aws/dynamodb"
-	"github.com/coinbase/step/errors"
-	"github.com/coinbase/step/utils/to"
+	"github.com/cleardataeng/step/aws"
+	"github.com/cleardataeng/step/aws/dynamodb"
+	"github.com/cleardataeng/step/errors"
+	"github.com/cleardataeng/step/utils/to"
 )
 
 ////////
@@ -40,7 +40,7 @@ func (e DeployLambdaError) Error() string {
 // HANDLERS
 ////////////
 
-var assumed_role = to.Strp("coinbase-step-deployer-assumed")
+var assumed_role = to.Strp("step-deployer-assumed")
 
 func ValidateHandler(awsc aws.AwsClients) interface{} {
 	return func(ctx context.Context, release *Release) (*Release, error) {
@@ -49,7 +49,7 @@ func ValidateHandler(awsc aws.AwsClients) interface{} {
 		release.WipeControlledValues()
 
 		region, account := to.AwsRegionAccountFromContext(ctx)
-		release.SetDefaults(region, account, "coinbase-step-deployer-")
+		release.SetDefaults(region, account, "step-deployer-")
 
 		// Validate the attributes for the release
 		if err := release.Validate(awsc.S3Client(release.AwsRegion, nil, nil)); err != nil {

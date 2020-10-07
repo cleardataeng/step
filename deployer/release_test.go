@@ -5,8 +5,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/coinbase/step/aws/mocks"
-	"github.com/coinbase/step/utils/to"
+	"github.com/cleardataeng/step/aws/mocks"
+	"github.com/cleardataeng/step/utils/to"
 )
 
 func Test_Release_DeployStepFunction(t *testing.T) {

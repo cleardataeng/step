@@ -6,11 +6,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/coinbase/step/aws"
-	"github.com/coinbase/step/aws/s3"
-	"github.com/coinbase/step/errors"
-	"github.com/coinbase/step/utils/is"
-	"github.com/coinbase/step/utils/to"
+	"github.com/cleardataeng/step/aws"
+	"github.com/cleardataeng/step/aws/s3"
+	"github.com/cleardataeng/step/errors"
+	"github.com/cleardataeng/step/utils/is"
+	"github.com/cleardataeng/step/utils/to"
 )
 
 type Locker interface {

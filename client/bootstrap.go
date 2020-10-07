@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"io/ioutil"
 
-	"github.com/coinbase/step/aws"
-	"github.com/coinbase/step/deployer"
-	"github.com/coinbase/step/utils/to"
+	"github.com/cleardataeng/step/aws"
+	"github.com/cleardataeng/step/deployer"
+	"github.com/cleardataeng/step/utils/to"
 )
 
 // Bootstrap takes release information and uploads directly to Step Function and Lambda

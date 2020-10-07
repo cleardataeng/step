@@ -5,8 +5,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/coinbase/step/machine"
-	"github.com/coinbase/step/utils/to"
+	"github.com/cleardataeng/step/machine"
+	"github.com/cleardataeng/step/utils/to"
 )
 
 // Output Dot Format For State Machine

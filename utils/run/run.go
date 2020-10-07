@@ -6,10 +6,10 @@ import (
 	"os"
 
 	"github.com/aws/aws-lambda-go/lambda"
-	"github.com/coinbase/step/handler"
-	"github.com/coinbase/step/machine"
-	"github.com/coinbase/step/utils/is"
-	"github.com/coinbase/step/utils/to"
+	"github.com/cleardataeng/step/handler"
+	"github.com/cleardataeng/step/machine"
+	"github.com/cleardataeng/step/utils/is"
+	"github.com/cleardataeng/step/utils/to"
 
 	ddlambda "github.com/DataDog/datadog-lambda-go"
 )

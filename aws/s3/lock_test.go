@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/coinbase/step/aws/mocks"
-	"github.com/coinbase/step/utils/to"
+	"github.com/cleardataeng/step/aws/mocks"
+	"github.com/cleardataeng/step/utils/to"
 	"github.com/stretchr/testify/assert"
 )
 

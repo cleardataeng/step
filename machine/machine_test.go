@@ -5,7 +5,7 @@ import (
 	"io/ioutil"
 	"testing"
 
-	"github.com/coinbase/step/utils/to"
+	"github.com/cleardataeng/step/utils/to"
 	"github.com/stretchr/testify/assert"
 )
 
